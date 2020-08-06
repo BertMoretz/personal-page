@@ -1,0 +1,114 @@
+.header-container {
+    width: 100%;
+    position: relative;
+    background-color: #FFFFFF;
+}
+
+.background-tile {
+    background-image: url("../../assets/svg/background-tile.svg");
+    width: 100%;
+    height: 216px;
+    background-size: 100% ;
+    background-position: left bottom;
+    top: 0;
+    left: 0;
+    /*position: absolute;*/
+    z-index: -1;
+}
+
+.content {
+    padding: 0 0 44px;
+    max-width: 1280px;
+    position: relative;
+    display: flex;
+    margin: auto;
+    z-index: 0;
+}
+
+.profile-pic {
+    background-image: url("../../assets/images/profile-pic.png");
+    width: 256px;
+    height: 256px;
+    background-size: 130% ;
+    background-position: -20px center;
+    border-radius: 100%;
+    margin-top: -73px;
+    z-index: 1;
+}
+
+.data-container {
+    margin: 18px 36px 0;
+    z-index: 1;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 43px;
+    color: #212123;
+}
+
+.status {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #5B5B5B;
+}
+
+.socials {
+    margin-top: 24px;
+    display: flex;
+}
+
+.social-item {
+    margin-right: 24px;
+}
+
+.linkedin {
+    background-image: url("../../assets/svg/linkedin-basic.svg");
+    width: 36px;
+    height: 36px;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+
+.linkedin:hover {
+    background-image: url("../../assets/svg/linkedin-hover.svg");
+}
+
+.git {
+    background-image: url("../../assets/svg/git-basic.svg");
+    width: 36px;
+    height: 36px;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+
+.git:hover {
+    background-image: url("../../assets/svg/git-hover.svg");
+}
+
+.vk {
+    background-image: url("../../assets/svg/vk-basic.svg");
+    width: 36px;
+    height: 36px;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+
+.vk:hover {
+    background-image: url("../../assets/svg/vk-hover.svg");
+}
+
+.instagram {
+    background-image: url("../../assets/svg/instagram-basic.svg");
+    width: 36px;
+    height: 36px;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+
+.instagram:hover {
+    background-image: url("../../assets/svg/instagram-hover.svg");
+}
