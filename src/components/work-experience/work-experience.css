@@ -1,0 +1,75 @@
+.work-experience-container {
+    margin-top: 32px;
+    background-color: white;
+    padding: 32px 48px 32px 32px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    max-width: 810px;
+}
+
+.we-header {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #212123;
+}
+
+.position-container {
+    display: flex;
+    margin-top: 24px;
+}
+
+.company-logo {
+    text-align: center;
+    width: 128px;
+    height: auto;
+}
+
+
+.work-period {
+    min-width: 128px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.period-date {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #CFCFCF;
+}
+
+.divider {
+    margin: 12px 0 12px;
+    width: 3px;
+    min-height: 50px;
+    height: 100%;
+    border-radius: 9px;
+    background-color: #E9E9E9;
+}
+
+.position {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #212123;
+}
+
+.company-name {
+    font-size: 18px;
+    line-height: 21px;
+    color: #212123;
+}
+
+.detailed-description {
+    text-align: justify;
+    margin-left: 80px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #212123;
+
+}
