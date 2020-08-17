@@ -67,7 +67,7 @@
 }
 
 .linkedin {
-    background-image: url("../../assets/svg/linkedin-basic.svg");
+    background-image: url("../../assets/svg/socials/linkedin-basic.svg");
     width: 36px;
     height: 36px;
     transition: all ease 0.3s;
@@ -75,11 +75,11 @@
 }
 
 .linkedin:hover {
-    background-image: url("../../assets/svg/linkedin-hover.svg");
+    background-image: url("../../assets/svg/socials/linkedin-hover.svg");
 }
 
 .git {
-    background-image: url("../../assets/svg/git-basic.svg");
+    background-image: url("../../assets/svg/socials/git-basic.svg");
     width: 36px;
     height: 36px;
     transition: all ease 0.3s;
@@ -87,11 +87,11 @@
 }
 
 .git:hover {
-    background-image: url("../../assets/svg/git-hover.svg");
+    background-image: url("../../assets/svg/socials/git-hover.svg");
 }
 
 .vk {
-    background-image: url("../../assets/svg/vk-basic.svg");
+    background-image: url("../../assets/svg/socials/vk-basic.svg");
     width: 36px;
     height: 36px;
     transition: all ease 0.3s;
@@ -99,11 +99,11 @@
 }
 
 .vk:hover {
-    background-image: url("../../assets/svg/vk-hover.svg");
+    background-image: url("../../assets/svg/socials/vk-hover.svg");
 }
 
 .instagram {
-    background-image: url("../../assets/svg/instagram-basic.svg");
+    background-image: url("../../assets/svg/socials/instagram-basic.svg");
     width: 36px;
     height: 36px;
     transition: all ease 0.3s;
@@ -111,5 +111,5 @@
 }
 
 .instagram:hover {
-    background-image: url("../../assets/svg/instagram-hover.svg");
+    background-image: url("../../assets/svg/socials/instagram-hover.svg");
 }

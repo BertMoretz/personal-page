@@ -1,0 +1,51 @@
+.education-container {
+    margin-top: 32px;
+    background-color: white;
+    padding: 32px 48px 32px 32px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    max-width: 810px;
+    position: relative;
+}
+
+.education-image {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    pointer-events: none;
+}
+
+.e-header {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #212123;
+}
+
+.uni-container {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.uni-logo {
+    text-align: center;
+    width: 152px;
+    height: auto;
+}
+
+.specialty {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #212123;
+}
+
+.additional-information {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #212123;
+}
+

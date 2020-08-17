@@ -3,6 +3,7 @@ import {HashRouter} from "react-router-dom";
 import './App.css';
 import Header from "./components/header/header";
 import WorkExperience from "./components/work-experience/work-experience";
+import Education from "./components/education/education";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Header />
         <div className={"container"}>
           <WorkExperience />
+          <Education />
           {/*<Switch>*/}
           {/*  /!*<Route exact path="/" component={HomePage}/>*!/*/}
           {/*  <Redirect from="*" to="/"/>*/}

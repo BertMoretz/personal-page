@@ -22,6 +22,11 @@ function WorkExperience()  {
   return (
     <section className={"work-experience-container"}>
       <span className={"we-header"}>Work Experience</span>
+      <img
+        className={"laptop-image"}
+        alt={"laptop"}
+        src={require("../../assets/svg/anchors/laptop.svg")}
+      />
       {workExperience.map((work, index) => (
         <div key={index}>
           <div className={"position-container"} >
