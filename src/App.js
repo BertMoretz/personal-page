@@ -4,6 +4,7 @@ import './App.css';
 import Header from "./components/header/header";
 import WorkExperience from "./components/work-experience/work-experience";
 import Education from "./components/education/education";
+import Projects from "./components/projects/projects";
 
 function App() {
   return (
@@ -13,10 +14,7 @@ function App() {
         <div className={"container"}>
           <WorkExperience />
           <Education />
-          {/*<Switch>*/}
-          {/*  /!*<Route exact path="/" component={HomePage}/>*!/*/}
-          {/*  <Redirect from="*" to="/"/>*/}
-          {/*</Switch>*/}
+          <Projects />
         </div>
       </main>
     </HashRouter>

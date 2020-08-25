@@ -8,12 +8,9 @@
 .background-tile {
     background-image: url("../../assets/svg/background-tile.svg");
     width: 100%;
-    height: 216px;
+    height: 168px;
     background-size: 100% ;
-    background-position: left bottom;
-    top: 0;
-    left: 0;
-    /*position: absolute;*/
+    background-position: left top;
     z-index: -1;
 }
 
