@@ -1,4 +1,4 @@
-.education-container {
+.publications-container {
     margin-top: 24px;
     background-color: white;
     padding: 32px 48px 32px 32px;
@@ -7,45 +7,44 @@
     position: relative;
 }
 
-.education-image {
+.publications-image {
     position: absolute;
     top: 16px;
     right: 20px;
     pointer-events: none;
 }
 
-.e-header {
+.pub-header {
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
     color: #212123;
 }
 
-.uni-container {
+.pub-container {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
+    justify-content: space-between;
     margin-top: 24px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #E9E9E9;
+    position: relative;
+    z-index: 1;
 }
 
-.uni-logo {
-    text-align: center;
-    width: 152px;
-    height: auto;
-}
-
-.specialty {
-    font-style: normal;
-    font-weight: 500;
+.publication-name {
     font-size: 18px;
     line-height: 21px;
     color: #212123;
 }
 
-.additional-information {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 21px;
-    color: #212123;
+.publication-authors {
+    font-size: 14px;
+    line-height: 17px;
+    color: #B1B1B1;
+    margin-top: 6px;
 }
 
+.read-button {
+    min-width: 106px;
+}
