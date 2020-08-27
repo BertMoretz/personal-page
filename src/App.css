@@ -1,4 +1,14 @@
 .container {
   max-width: 1280px;
   margin: 24px auto;
+  display: flex;
+}
+
+.main-part {
+  max-width: 810px;
+}
+
+.contact-part {
+  width: 447px;
+  margin-left: 24px;
 }

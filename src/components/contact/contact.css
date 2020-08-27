@@ -1,50 +1,42 @@
-.education-container {
-    margin-top: 24px;
+.contact-container {
     background-color: white;
     padding: 32px 48px 32px 32px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-    position: relative;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 24px;
+    max-width: 441px;
 }
 
-.education-image {
+.contact-image {
     position: absolute;
     top: 16px;
     right: 20px;
     pointer-events: none;
 }
 
-.e-header {
+.c-header {
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
     color: #212123;
 }
 
-.uni-container {
+.contact-element {
     display: flex;
-    align-items: center;
     margin-top: 24px;
 }
 
-.uni-logo {
-    text-align: center;
-    width: 152px;
-    height: auto;
-}
-
-.specialty {
-    font-style: normal;
+.contact-name {
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
     color: #212123;
 }
 
-.additional-information {
-    font-style: normal;
-    font-weight: normal;
+.contact-value {
+    margin-left: 24px;
     font-size: 18px;
     line-height: 21px;
     color: #212123;
 }
-
