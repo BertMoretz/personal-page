@@ -40,7 +40,7 @@ function Education()  {
                 src={require(`../../assets/${uni.logoUrl}`)}
               />
             </div>
-            <div style={{ marginLeft: 64}}>
+            <div className={"uni-information"}>
               <div className={"specialty"}> {uni.degree} in {uni.field} </div>
               <div className={"additional-information"}>
                 {uni.universityName} <br/>

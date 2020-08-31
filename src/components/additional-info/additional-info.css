@@ -11,6 +11,10 @@
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
 }
 
+.language {
+    margin-left: 12px;
+}
+
 .info-header {
     font-weight: 500;
     font-size: 24px;
@@ -27,4 +31,22 @@
     font-size: 18px;
     line-height: 21px;
     color: #212123;
+}
+
+
+/* MOBILE STYLES */
+@media only screen and (max-width: 1023px) {
+    .additional-info-container {
+        margin-top: 0;
+        display: block;
+    }
+
+    .block {
+        margin-top: 12px;
+        padding: 24px;
+    }
+
+    .language {
+        margin-left: 0;
+    }
 }

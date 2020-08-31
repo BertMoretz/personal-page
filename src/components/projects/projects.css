@@ -61,3 +61,26 @@
     color: #0193DC;
     text-decoration: none;
 }
+
+/* MOBILE STYLES */
+@media only screen and (max-width: 1023px) {
+    .projects-container {
+        margin-top: 12px;
+        padding: 24px;
+    }
+
+    .pr-container {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-bottom: 6px;
+    }
+
+    .source-button {
+        min-width: 154px;
+        margin-top: 16px;
+    }
+
+    .git-link {
+        font-size: 16px;
+    }
+}

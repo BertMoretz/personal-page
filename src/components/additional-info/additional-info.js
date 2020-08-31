@@ -7,7 +7,8 @@ function AdditionalInfo()  {
     'Angular',
     'Javascript, Typescript',
     'HTML5, CSS',
-    'Adobe Photoshop, Adobe Illustrator',
+    'Adobe Photoshop',
+    'Adobe Illustrator',
     'Git'
   ];
   const languages = [
@@ -34,7 +35,7 @@ function AdditionalInfo()  {
           ))}
         </div>
       </div>
-      <div className={"block"} style={{marginLeft: '12px'}}>
+      <div className={"block language"}>
         <span className={"info-header"}>Languages</span>
         <div className={"addinfo-container"}>
           {languages.map((lang, index) => (

@@ -40,3 +40,22 @@
     line-height: 21px;
     color: #212123;
 }
+
+
+/* MOBILE STYLES */
+@media only screen and (max-width: 1023px) {
+    .contact-container {
+        margin-top: -12px;
+        padding: 24px;
+        position: relative;
+        max-width: 810px;
+    }
+
+    .contact-element {
+        flex-direction: column;
+    }
+
+    .contact-value {
+        margin-left: 0;
+    }
+}

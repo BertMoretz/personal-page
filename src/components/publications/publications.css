@@ -47,3 +47,22 @@
 .read-button {
     min-width: 106px;
 }
+
+/* MOBILE STYLES */
+@media only screen and (max-width: 1023px) {
+    .publications-container {
+        margin-top: 12px;
+        padding: 24px;
+    }
+
+    .pub-container {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-bottom: 6px;
+    }
+
+    .read-button {
+        min-width: 106px;
+        margin-top: 16px;
+    }
+}
