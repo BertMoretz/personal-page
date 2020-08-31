@@ -73,11 +73,13 @@
         flex-direction: column;
         justify-content: flex-start;
         padding-bottom: 6px;
+        align-items: flex-start;
     }
 
     .source-button {
         min-width: 154px;
         margin-top: 16px;
+        align-self: flex-end;
     }
 
     .git-link {
