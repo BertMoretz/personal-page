@@ -31,7 +31,7 @@ function Header()  {
                   <div className={"vk"}>
                   </div>
                 </a>
-                <a className={"social-item"} href="https://www.instagram.com/bertmoretz/">
+                <a href="https://www.instagram.com/bertmoretz/">
                   <div className={"instagram"}>
                   </div>
                 </a>

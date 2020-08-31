@@ -36,12 +36,13 @@ function WorkExperience()  {
                 src={require(`../../assets/${work.logoURL}`)}
               />
             </div>
-            <div style={{ marginLeft: 80}}>
+            <div className={"name-position"}>
               <div className={"position"}> {work.position} </div>
               <div className={"company-name"}> {work.companyName} </div>
+              <div className={"period-date-mobile"}> {work.beginDate} - {work.endDate} </div>
             </div>
           </div>
-          <div style={{marginTop: 24, display: "flex"}}>
+          <div className={"work-details"}>
             <div className={"work-period"}>
               <span className={"period-date"}>{work.endDate}</span>
               <div className={"divider"}>

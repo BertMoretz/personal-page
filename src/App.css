@@ -12,3 +12,16 @@
   width: 447px;
   margin-left: 24px;
 }
+
+/* MOBILE STYLES */
+@media only screen and (max-width: 1023px) {
+  .container {
+    margin: 12px auto;
+    display: block;
+  }
+
+  .contact-part {
+    width: 100%;
+    margin-left: 0;
+  }
+}
