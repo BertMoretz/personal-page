@@ -1,0 +1,38 @@
+
+.button {
+    height: 52px;
+    color: #212123;
+    border: 1px solid #212123;
+    background-color: transparent;
+    font-size: 18px;
+    line-height: 21px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: #ffffff;
+    background-color: #212123;
+}
+
+.button:active {
+    color: #ffffff;
+    background-color: #161618;
+}
+
+.filled {
+    color: #ffffff;
+    border: 2px solid #212123;
+    background-color: #212123;
+    cursor: pointer;
+}
+
+.filled:hover {
+    background-color: #161618;
+    border-color: #161618;
+    color: #ffffff;
+}
+
+.filled:active {
+    background-color: #161618;
+}

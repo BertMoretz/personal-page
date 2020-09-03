@@ -1,0 +1,134 @@
+.work-experience-container {
+    background-color: white;
+    padding: 32px 48px 32px 32px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    position: relative;
+}
+
+.laptop-image {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    pointer-events: none;
+}
+
+.we-header {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #212123;
+}
+
+.position-container {
+    display: flex;
+    margin-top: 24px;
+}
+
+.company-logo {
+    text-align: center;
+    width: 128px;
+    height: auto;
+}
+
+.name-position {
+    margin-left: 80px;
+}
+
+.period-date-mobile {
+    display: none;
+}
+
+.work-details {
+    margin-top: 24px;
+    display: flex;
+}
+
+.work-period {
+    min-width: 128px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.period-date {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #CFCFCF;
+}
+
+.divider {
+    margin: 12px 0 12px;
+    width: 3px;
+    min-height: 50px;
+    height: 100%;
+    border-radius: 9px;
+    background-color: #E9E9E9;
+}
+
+.position {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #212123;
+}
+
+.company-name {
+    font-size: 18px;
+    line-height: 21px;
+    color: #212123;
+}
+
+.detailed-description {
+    text-align: justify;
+    margin-left: 80px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #212123;
+}
+
+/* MOBILE STYLES */
+@media only screen and (max-width: 1023px) {
+    .work-experience-container {
+        padding: 24px;
+    }
+
+    .position-container {
+        flex-direction: column;
+    }
+
+    .company-logo {
+        align-self: center;
+    }
+
+    .name-position {
+        margin-left: 0;
+        margin-top: 12px;
+        text-align: center;
+    }
+
+    .period-date-mobile {
+        display: block;
+        margin-top: 12px;
+        font-size: 14px;
+        color: #CFCFCF;
+    }
+
+    .work-details {
+        display: block;
+        margin: 0;
+    }
+
+    .work-period {
+        display: none;
+    }
+
+    .detailed-description {
+        margin-left: 0;
+        margin-top: 12px;
+    }
+}

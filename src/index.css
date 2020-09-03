@@ -75,3 +75,7 @@ body {
   background-color: #EFEFEF;
   margin: 0;
 }
+
+* {
+  box-sizing: border-box;
+}

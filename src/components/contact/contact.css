@@ -1,0 +1,63 @@
+.contact-container {
+    background-color: white;
+    padding: 32px 48px 32px 32px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    position: -webkit-sticky;
+    top: 24px;
+    max-width: 441px;
+}
+
+.contact-image {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    pointer-events: none;
+}
+
+.c-header {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #212123;
+}
+
+.contact-element {
+    display: flex;
+    margin-top: 24px;
+}
+
+.contact-name {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #212123;
+}
+
+.contact-value {
+    margin-left: 24px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #212123;
+}
+
+
+/* MOBILE STYLES */
+@media only screen and (max-width: 1024px) {
+    .contact-element {
+        flex-direction: column;
+    }
+
+    .contact-value {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .contact-container {
+        margin-top: -12px;
+        padding: 24px;
+        position: relative;
+        max-width: 100%;
+    }
+}

@@ -2,17 +2,15 @@
     width: 100%;
     position: relative;
     background-color: #FFFFFF;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
 }
 
 .background-tile {
     background-image: url("../../assets/svg/background-tile.svg");
     width: 100%;
-    height: 216px;
+    height: 168px;
     background-size: 100% ;
     background-position: left bottom;
-    top: 0;
-    left: 0;
-    /*position: absolute;*/
     z-index: -1;
 }
 
@@ -26,7 +24,7 @@
 }
 
 .profile-pic {
-    background-image: url("../../assets/images/profile-pic.png");
+    background-image: url("../../assets/images/profile-pic.jpg");
     width: 256px;
     height: 256px;
     background-size: 130% ;
@@ -66,7 +64,7 @@
 }
 
 .linkedin {
-    background-image: url("../../assets/svg/linkedin-basic.svg");
+    background-image: url("../../assets/svg/socials/linkedin-basic.svg");
     width: 36px;
     height: 36px;
     transition: all ease 0.3s;
@@ -74,11 +72,11 @@
 }
 
 .linkedin:hover {
-    background-image: url("../../assets/svg/linkedin-hover.svg");
+    background-image: url("../../assets/svg/socials/linkedin-hover.svg");
 }
 
 .git {
-    background-image: url("../../assets/svg/git-basic.svg");
+    background-image: url("../../assets/svg/socials/git-basic.svg");
     width: 36px;
     height: 36px;
     transition: all ease 0.3s;
@@ -86,11 +84,11 @@
 }
 
 .git:hover {
-    background-image: url("../../assets/svg/git-hover.svg");
+    background-image: url("../../assets/svg/socials/git-hover.svg");
 }
 
 .vk {
-    background-image: url("../../assets/svg/vk-basic.svg");
+    background-image: url("../../assets/svg/socials/vk-basic.svg");
     width: 36px;
     height: 36px;
     transition: all ease 0.3s;
@@ -98,11 +96,11 @@
 }
 
 .vk:hover {
-    background-image: url("../../assets/svg/vk-hover.svg");
+    background-image: url("../../assets/svg/socials/vk-hover.svg");
 }
 
 .instagram {
-    background-image: url("../../assets/svg/instagram-basic.svg");
+    background-image: url("../../assets/svg/socials/instagram-basic.svg");
     width: 36px;
     height: 36px;
     transition: all ease 0.3s;
@@ -110,5 +108,56 @@
 }
 
 .instagram:hover {
-    background-image: url("../../assets/svg/instagram-hover.svg");
+    background-image: url("../../assets/svg/socials/instagram-hover.svg");
+}
+
+/* MOBILE STYLES */
+@media only screen and (max-width: 880px) {
+    .header-container {
+        width: 100%;
+        position: relative;
+        background-color: #FFFFFF;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    }
+
+    .background-tile {
+        background-image: url("../../assets/svg/background-tile.svg");
+        width: 100%;
+        height: 100px;
+        background-size: 200% ;
+        background-position: left top;
+        z-index: -1;
+    }
+
+    .content {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .profile-pic {
+        width: 128px;
+        height: 128px;
+    }
+
+    .data-container {
+        margin: 0;
+    }
+
+    .name {
+        font-size: 24px;
+    }
+
+    .status {
+        font-size: 18px;
+    }
+
+    .socials {
+        margin-top: 12px;
+        justify-content: center;
+    }
+
+    .social-item {
+        margin-right: 12px;
+    }
 }
