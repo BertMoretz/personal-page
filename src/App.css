@@ -14,7 +14,7 @@
 }
 
 /* MOBILE STYLES */
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 880px) {
   .container {
     margin: 12px auto;
     display: block;
@@ -23,5 +23,9 @@
   .contact-part {
     width: 100%;
     margin-left: 0;
+  }
+
+  .main-part {
+    max-width: 100%;
   }
 }
