@@ -5,11 +5,21 @@ import "./work-experience.css";
 function WorkExperience()  {
   const workExperience = [
     {
+      companyName: "Greentube Internet Entertainment Solutions GmbH",
+      position: "Software Developer",
+      logoURL: "images/greentube-logo.png",
+      beginDate: "Oct 2020",
+      endDate: "currently working",
+      description: [
+        "Developing admin web application that helps employees to control and manage company's iGames solutions."
+      ]
+    },
+    {
       companyName: "MTS Group",
       position: "Frontend Developer",
       logoURL: "svg/mts-logo.svg",
       beginDate: "Jun 2019",
-      endDate: "currently working",
+      endDate: "Oct 2020",
       description: [
         "Developing B2C system that provides users service to register new SIM-cards. The application is a part of big ecosystem for online sales of company services.",
         "Developing B2B web application for online purchases of SIM and satellite equipment with tracking current expenditures and sales.",
@@ -28,10 +38,11 @@ function WorkExperience()  {
         src={require("../../assets/svg/anchors/laptop.svg")}
       />
       {workExperience.map((work, index) => (
-        <div key={index}>
+        <div key={index} style={{marginTop: 36}}>
           <div className={"position-container"} >
-            <div className={"company-logo"}>
+            <div className={"company-logo-container"}>
               <img
+                className={"company-logo"}
                 alt={`company logo ${index}`}
                 src={require(`../../assets/${work.logoURL}`)}
               />
@@ -61,7 +72,6 @@ function WorkExperience()  {
             </div>
           </div>
         </div>
-
       ))}
     </section>
   )
