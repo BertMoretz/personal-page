@@ -14,7 +14,7 @@ function Publications()  {
 
   return (
     <section className={"publications-container"}>
-      <span className={"pub-header"}>Projects</span>
+      <span className={"pub-header"}>Publications</span>
       <img
         className={"publications-image"}
         alt={"publications"}

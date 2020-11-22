@@ -24,9 +24,14 @@
     margin-top: 24px;
 }
 
+.company-logo-container {
+    min-width: 128px;
+    text-align: center;
+}
+
 .company-logo {
     text-align: center;
-    width: 128px;
+    width: 116px;
     height: auto;
 }
 
@@ -103,6 +108,12 @@
 
     .company-logo {
         align-self: center;
+        max-width: 128px;
+    }
+
+    .company-logo-container {
+        min-width: auto;
+        text-align: center;
     }
 
     .name-position {
