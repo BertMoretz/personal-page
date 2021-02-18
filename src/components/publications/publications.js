@@ -9,6 +9,11 @@ function Publications()  {
       name: 'Understanding Attitudes Towards Emergency Training Modes: Conventional Drills And Serious Games',
       authors: 'Hamna Aslam, Irek Almuhametov, Albert Sakhapov ',
       link: 'https://link.springer.com/chapter/10.1007/978-3-030-34350-7_36'
+    },
+    {
+      name: 'Players Perception of Loot Boxes',
+      authors: 'Albert Sakhapov, Joseph Alexander Brown',
+      link: 'https://link.springer.com/chapter/10.1007/978-3-030-65736-9_12'
     }
   ];
 
