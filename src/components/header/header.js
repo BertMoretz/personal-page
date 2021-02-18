@@ -16,7 +16,7 @@ function Header()  {
                 Albert Sakhapov
               </div>
               <div className={"status"}>
-                Frontend Developer
+                Software Developer
               </div>
               <div className={"socials"}>
                 <a className={"social-item"} href="https://www.linkedin.com/in/sakhapov/">
